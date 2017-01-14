@@ -1,0 +1,71 @@
+* {
+	box-sizing: border-box;
+}
+
+#header-nav {
+	background-color: gray;
+	border-radius: 0;
+	border-bottom: 2px solid black;
+}
+
+.navbar-brand h1 {
+	font-size: 28px;
+	font-weight: bold;
+	color: black;
+	margin-top: 0;
+	margin-bottom: 0;
+	text-align: left;
+}
+
+.navbar-brand a:hover, .navbar-brand a:active, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle {
+	border: 1px solid black;
+}
+
+.navbar-header .icon-bar {
+	border: 2px solid black;
+}
+
+#nav-list {
+	background-color: white;
+}
+
+
+#nav-list li {
+	font-size: 20px;
+	text-align: center;
+	border-top: 2px solid black;
+	border-right: 2px solid black;
+	border-left: 2px solid black;;
+}
+
+#nav-list li span {
+	color: black;
+}
+
+#nav-list li>a:hover {
+	text-decoration: none;
+}
+
+
+#main-content h2 {
+	color: black;
+	font-size: black;
+	font-weight: bold;
+}
+
+#main-content section {
+	background-color: gray;
+	padding: 20px;
+	margin: 30px;
+	color: black;
+}
+
+#main-content h3 {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
